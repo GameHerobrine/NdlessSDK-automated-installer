@@ -12,29 +12,8 @@ def countdown(msg, start):
     print(msg)
     for i in range(start, 0, -1):
         print(i)
-        time.sleep(1)
 
-art = '                           *     .--.\n' \
-      '                                / /  `\n' \
-      '               +               | |\n' \
-      '                      \'         \ \__,\n' \
-      '                  *          +   \'--\'  *\n' \
-      '                      +   /\\\n' \
-      '         +              .\'  \'.   *\n' \
-      '                *      /======\      +\n' \
-      '                      ;:.  _   ;\n' \
-      '                      |:. (_)  |\n' \
-      '                      |:.  _   |\n' \
-      '            +         |:. (_)  |          *\n' \
-      '                      ;:.      ;\n' \
-      '                    .\' \:.    / `.\n' \
-      '                   / .-\'\':._.\'`-. \\\n' \
-      '                   |/    /||\    \|\n' \
-      '             jgs _..--\"\"\"````\"\"\"--.._\n' \
-      '           _.-\'``                    ``\'-._\n' \
-      '         -\'                                \'-\n' \
-      '          Ndless 4.5 SDK Automated Installer\n' \
-      '                 by trueToastedCode\n'
+art = ''
 
 # check executed python version, python < 3 causes errors for me!
 if int(version[0]) < 3:
@@ -45,7 +24,7 @@ if getuser() != 'root':
     exit(1)
 
 # print art and start
-print(art)
+# no print(art)
 if input('Start installation (n/y): ') != 'y':
     exit(0)
 
